@@ -1,14 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Hey
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Header/>
+            <Body/>
+            <Footer/>
+        </>
+    );
 }
 
 export default App;
